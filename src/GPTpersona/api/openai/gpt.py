@@ -20,7 +20,7 @@ class Gpt:
             system_msg (str): Initial system message to configure the model.
         """
         # Environment setup
-        env_path = Path(__file__).resolve().parents[3] / '.env'
+        env_path = Path(__file__).resolve().parents[4] / '.env'
         load_dotenv(dotenv_path=env_path)
 
         # Timezone setup

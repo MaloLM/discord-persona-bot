@@ -3,7 +3,6 @@ import discord
 from discord.ext import commands
 from random import choice
 from dotenv import load_dotenv
-from common import GBCommon  # Assuming common.py contains the definition of GBCommon
 
 # Load environment variables
 load_dotenv()
@@ -39,8 +38,6 @@ async def on_ready():
 
 # Main entry point
 if __name__ == '__main__':
-    # Common functionality for the bot
-    client.common = GBCommon()
 
     # Load extensions
     for extension in extensions:

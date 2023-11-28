@@ -34,10 +34,8 @@ class Events(commands.Cog):
             return
 
         functions = [
-            event.ping, event.vxtwitter, event.votre_majeste, event.leaf, 
-            event.riso, event.coiffeur, event.je_suis, event.random_quote, 
-            event.chaine
-        ]
+            event.ping, # List of events to be loaded 
+        ] 
 
         for function in functions:
             try:
