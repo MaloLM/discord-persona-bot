@@ -11,18 +11,6 @@ class Events(commands.Cog):
 
     def __init__(self, client):
         self.client = client
-        self.switch = self._load_switch()
-
-    def _load_switch(self):
-        """
-        Loads the switch configuration from a file.
-        """
-        try:
-            with open(f"{botPath}/conf/switch.txt", "r") as switchEvent:
-                return switchEvent.read()
-        except IOError as e:
-            print(f"Error loading switch file: {e}")
-            return ""
 
     @commands.Cog.listener()
     async def on_message(self, message):
@@ -30,7 +18,7 @@ class Events(commands.Cog):
         Listener for on_message event.
         Processes various functions based on the message content.
         """
-        if message.author == self.client.user or str(message.guild.id) not in self.switch:
+        if message.author == self.client.user:
             return
 
         functions = [

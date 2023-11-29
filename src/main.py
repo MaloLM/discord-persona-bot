@@ -1,8 +1,8 @@
 import os
 import discord
-from discord.ext import commands
 from random import choice
 from dotenv import load_dotenv
+from discord.ext import commands
 
 # Load environment variables
 load_dotenv()
