@@ -2,7 +2,7 @@ import GPTpersona
 
 chat = GPTpersona.Chat()
 
-async def ping(self, message):
+async def send(self, message):
     """
     Responds to mentions of the bot in Discord messages.
     

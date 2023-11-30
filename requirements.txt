@@ -1,4 +1,5 @@
 openai
 python-dotenv
 pytz
-discord
+py-cord
+dotenv

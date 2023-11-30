@@ -9,6 +9,25 @@ Thank you for considering contributing to this project. This guide provides info
 4. [Coding Standards](#coding-standards)
 5. [Additional Notes](#additional-notes)
 
+## Reporting Issues or Suggesting Improvements
+
+If you encounter any problems or have suggestions for improvements, please feel free to report them in the **Issues** section of this GitHub repository. To ensure efficient and effective communication, please follow these guidelines when submitting an issue:
+
+1. **Use a Clear Title**: Write a concise and informative title for the issue that briefly summarizes the problem or suggestion.
+
+2. **Provide Detailed Information**: In the description, include as much relevant information as possible. This might include:
+   - The steps to reproduce the issue (if applicable).
+   - The expected outcome versus the actual outcome.
+   - Any error messages or screenshots that illustrate the problem.
+   - Your environment details, like the operating system and version of the software you are using.
+
+3. **Label Your Issue**: If possible, categorize your issue using labels. Common labels include `bug`, `feature request`, `enhancement`, `documentation`, etc.
+
+4. **Be Respectful and Constructive**: Remember to be respectful and constructive in your communication. We appreciate your contribution to improving [Project Name].
+
+Thank you for helping us make this project better!
+
+
 ## Setting Up the Development Environment
 
 1. **Fork the Repository**: Start by forking [the main repository](https://github.com/MaloLM/Discord-PersonaBot.git).
@@ -25,10 +44,25 @@ Thank you for considering contributing to this project. This guide provides info
    git remote add upstream https://github.com/MaloLM/Discord-PersonaBot.git
    ```
 5. **Install Dependencies**:
-   Inside both node-server and electron directory: 
-   ```bash
-   TBD
+
+- Optional: Install PM2 (a Node.js process manager):
+
+  ```
+  $ npm install pm2@latest -g
+  # or
+  $ yarn global add pm2
+  ```
+- Install the Python dependencies at the project root:
+
    ```
+   pip install -r requirements.txt
+   ```
+
+  PM2 helps in managing and keeping your application online.
+
+After completing these steps, your project should be set up and ready to run. Follow any additional setup or configuration instructions specific to the project.
+
+
 
 ## Creating a Pull Request
 
@@ -60,5 +94,4 @@ Thank you for considering contributing to this project. This guide provides info
 
 ## Additional Notes
 
-- If your PR addresses a particular issue, use `fixes #ISSUE_NUMBER` in your commit message or PR description.
 - Please be respectful and considerate to other contributors. Adhere to the Code of Conduct.

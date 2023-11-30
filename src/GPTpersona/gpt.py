@@ -28,7 +28,7 @@ class Gpt:
         self.current_time = datetime.now(paris_tz).strftime('%Y-%m-%d %H:%M:%S')
 
         # Model setup
-        self.model = "gpt-4-1106-preview"
+        self.model = os.getenv("GPT_MODEL")
         self.client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
         # Initial system message preparation
@@ -64,13 +64,5 @@ class Gpt:
 
         # Append the assistant's response and log the conversation
         self.messages.append({"role": "assistant", "content": assistant_response})
-        self._log_conversation()
 
         return assistant_response
-
-    def _log_conversation(self):
-        """
-        Logs the conversation history to a file.
-        """
-        with open("/home/harkinian/scripts/KingBot/GPTpersona/api/openai/kingLogs.txt", "a") as log_file:
-            log_file.write(f"{self.messages} -> {len(self.messages)}\n\n")

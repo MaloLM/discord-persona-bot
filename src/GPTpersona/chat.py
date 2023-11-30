@@ -1,5 +1,5 @@
-from GPTpersona.api.openai.gpt import Gpt
-import GPTpersona.assets.persona as persona
+from GPTpersona.gpt import Gpt
+import GPTpersona.persona as persona
 
 class Chat:
     """
@@ -28,3 +28,7 @@ class Chat:
         """
         response = self.gpt_model.complete_chat(message, "user", username)
         return response
+    
+    def close(self):
+        del(self.gpt_model)
+

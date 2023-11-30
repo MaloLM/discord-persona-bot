@@ -1,1 +1,1 @@
-from .model.chat import Chat
+from .chat import Chat

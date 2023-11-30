@@ -22,7 +22,7 @@ class Events(commands.Cog):
             return
 
         functions = [
-            event.ping, # List of events to be loaded 
+            event.send, # List of events to be loaded 
         ] 
 
         for function in functions:
