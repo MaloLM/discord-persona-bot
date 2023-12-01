@@ -21,7 +21,7 @@ Discord-PersonaBot is licensed under the Apache 2.0 License. See the [LICENSE](.
 ## Contributing
 
 We welcome contributions! Please read our [contributing guidelines](./CONTRIBUTING) for details on how to submit pull requests, report issues, or request features.
-
+  
 ## Support
 
 For support, please contact the project contributors. 
