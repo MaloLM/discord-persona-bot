@@ -31,6 +31,12 @@ For support, please contact the project contributors.
 - [Nergalix](https://github.com/Nergalix) for the bot development
 - [Malo Le Mestre](https://github.com/MaloLM) for the GPT interfacing
 
+<!-- <a href = "https://github.com/MaloLM/Discord-PersonaBot/contributors">
+   <img src = "https://contrib.rocks/image?repo=MaloLM/Discord-PersonaBot"/>
+ </a> -->
+
+
+
 ## Connect with the Project Owner
 
 <div> 
