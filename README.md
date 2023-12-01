@@ -12,6 +12,12 @@ Discord-PersonaBot is a Python 3.9 based Discord bot that integrates with the Ch
 
 ## Usage
 
+![An example of how to interact with the bot, by pinging it through a discord conversation.](./usage_example.gif)
+
+\- Me: Hello 🥖
+
+\- Bot: Hello, it seems that you are passionate about baguettes. Tell me, what attracts you so much about French culture?
+
 For detailed instructions on how to install and use the  app, please refer to the [GETTING STARTED](./GETTING_STARTED.md) guide. This document provides step-by-step guidance to ensure a smooth setup and understanding of the bot's functionalities.
 
 ## License
