@@ -2,7 +2,7 @@
 
 ## Environment Setup
 
-- **Development Operating System**: The project was tested on Raspbian 5.10.103-v7+.
+- **Development Operating System**: The project was tested on Raspbian 5.10.103-v7+ and MacOS 14.1.1 (Sonoma).
 
 - **Python Version**: Ensure Python 3.9(.9) is installed for compatibility.
 
