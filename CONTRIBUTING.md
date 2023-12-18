@@ -23,7 +23,7 @@ If you encounter any problems or have suggestions for improvements, please feel 
 
 3. **Label Your Issue**: If possible, categorize your issue using labels. Common labels include `bug`, `feature request`, `enhancement`, `documentation`, etc.
 
-4. **Be Respectful and Constructive**: Remember to be respectful and constructive in your communication. We appreciate your contribution to improving [Project Name].
+4. **Be Respectful and Constructive**: Remember to be respectful and constructive in your communication. We appreciate your contribution to improving this project.
 
 Thank you for helping us make this project better!
 
